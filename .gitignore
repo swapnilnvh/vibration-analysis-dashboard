@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+
+# Local environments & binaries
+.env
+frontend/.env
+backend/.env
+backend/temp/
+cloudflared.exe
+*.log
+tunnel.log
+
+# Build outputs (Vercel builds directly from source via npm run build)
+frontend/dist/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
